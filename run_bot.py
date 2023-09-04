@@ -3,7 +3,7 @@ import argparse
 import requests
 from binance.client import Client
 
-# Initialize trading fee percentage
+# Initialize and Adjust trading fee percentage
 FEE_PERCENTAGE = 0.001  # 0.1% trading fee
 
 # Binance API Settings
@@ -11,10 +11,15 @@ API_KEY = "PUT YOUR BINANCE API KEY HERE"
 API_SECRET = "PUT YOUR BINANCE API SECRET HERE"
 
 # Telegram settings
+ENABLE_TELEGRAM_REPORTING = False
 TELEGRAM_TOKEN = "XXXXXX"
 CHAT_ID = "XXXXXXX"
 
 def send_telegram_message(message):
+
+    if not ENABLE_TELEGRAM_REPORTING:
+        return False
+    
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
