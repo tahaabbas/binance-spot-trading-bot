@@ -36,3 +36,13 @@ python run_bot.py &lt;Symbol> &lt;Interval> &lt;Short EMA Period> &lt;Long EMA P
 
 # Risk Warning
 Remember, while the EMA crossover strategy is popular, it's essential to combine it with other indicators or methods for more robust trading signals. Always ensure you are comfortable with the risks before running any trading bot live.
+
+# Support This Project
+<p>First off, thank you for taking the time to consider supporting this project. It's built with a lot of hard work, dedication, and countless hours of coding.</p>
+
+<p>If you've found any value in my work, and would like to support its continued development, consider making a donation. Every little bit helps in maintaining the project, covering costs, and encouraging further enhancements.
+Donate with Bitcoin (BTC)</p>
+
+<p>Support this project by sending a donation to the following BTC address: <code>bc1qau67zsv3lg9pupsegxn0zrln97uk9sjhm2dq3g</code></p>
+
+<p><b>Your generosity and support will always be appreciated!</b></p>
